@@ -1,0 +1,116 @@
+body {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+section {
+  margin-top: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+a {
+  color: #333;
+}
+
+.wrapper {
+  height: 635px;
+  width: 900px;
+  background: url('https://cdn.xxl.thumbs.canstockphoto.hu/k%C3%B6nyv-ny%C3%ADlik-vektor-clip-art_csp12386214.jpg');
+  margin: 0px auto;
+  background-size: 900px 635px;
+}
+
+.book-page {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.book-page .left-page, .book-page .right-page {
+  height: 400px;
+  overflow: hidden;
+}
+
+.book-page .left-page {
+  margin: 80px 30px 0px 100px;
+}
+
+.book-page .right-page {
+  margin: 80px 100px 0px 30px;
+}
+
+.profile-image {
+  margin: 20px auto;
+}
+
+.profile-image img {
+  border-radius: 50%;
+}
+
+.head {
+  margin: 0px 40px;
+}
+
+.name-headline {
+  border-top: 1px solid silver;
+  padding-top: 15px;
+  border-bottom: 1px solid silver;
+  padding-bottom: 14px;
+}
+
+.name-headline h1, .name-headline h2, .name-headline p {
+  margin-bottom: 6px;
+}
+
+.links>div {
+  float: left;
+  width: 33%;
+}
+
+.links span {
+  visibility: hidden;
+}
+
+.links>div:hover span {
+  visibility: visible;
+}
+
+.content {
+  margin: 0px 50px;
+  height: 100%;
+}
+
+.text-block {
+  line-height: 25px;
+  margin-top: 55px;
+}
+
+.text-block p:first-child::first-letter { 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 20px; 
+}
+
+.hide-copyright {
+  width: 310px;
+  height: 35px;
+  margin: -35px auto;
+  background-color: white;
+}
